@@ -28,7 +28,7 @@
         </svg>
     </button>
 
-    @vite('resources/js/menu.js')
-   @vite('resources/js/dark.js')
+    @vite('resources/js/app.js')
+   
 </body>
 </html>
