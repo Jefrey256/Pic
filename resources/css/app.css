@@ -37,15 +37,3 @@ img{
 }
 
 
-@media (min-width: 769px) {
-  .container {
-      padding: 2em;
-  }
-  .navbar {
-      display: flex;
-  }
-  img{
-      width: 200px;
-      height: 200px;
-  }
-}
