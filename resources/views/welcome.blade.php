@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laravel</title>
-    <link href="{{ mix('../resources/css/app.css') }}" rel="stylesheet">
+    @vite('resources/css/app.css')
 </head>
 <body class="bg-cor3 dark:bg-slate-800 text-cor4 flex flex-col min-h-screen" id="body">
     @include('layouts.navbar')
@@ -28,7 +28,7 @@
         </svg>
     </button>
 
-    <script src="{{ mix('../resources/js/menu.js') }}"></script>
-    <script src="{{ mix('../resources/js/dark.js') }}"></script>
+    @vite('resources/js/menu.js')
+   @vite('resources/js/dark.js')
 </body>
 </html>
